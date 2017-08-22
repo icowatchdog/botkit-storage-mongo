@@ -71,7 +71,7 @@ function getStorage(db, zone) {
             return table.find(data, options, cb);
         },
         remove: function(data, options, cb) {
-            return table.remove(data, opts, cb);
+            return table.remove(data, options, cb);
         }
     };
 }
