@@ -65,7 +65,7 @@ function getStorage(db, zone) {
             return table.find({}, cb);
         },
         find: function(data, cb) {
-            return table.find(data, options, cb);
+            return table.find(data, cb);
         },
         find2: function(data, options, cb) {
             return table.find(data, options, cb);
