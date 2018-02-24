@@ -73,7 +73,7 @@ function getStorage(db, zone) {
         remove: function(data, options, cb) {
             return table.remove(data, options, cb);
         },
-        aggregate: function(data) {
+        aggregate: function(data, options, cb) {
             return table.aggregate(data, options, cb);
         }
     };
